@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © Massimo Nardello, Modena (Italy) 2021</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>English</string>
+		<string>italian</string>
+	</array>
+	<key>LSApplicationCategoryType</key>
+	<string>Office</string>
+	<key>CFBundleExecutable</key>
+	<string>thtimeline</string>
+	<key>CFBundleName</key>
+	<string>thTimeline</string>
+	<key>CFBundleDisplayName</key>
+	<string>Theological Timeline</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.nardello.thtimeline</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>atp?</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0.0</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>*</string>
+			</array>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>fold</string>
+				<string>disk</string>
+				<string>****</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>CFBundleIconFile</key>
+	<string>icon.icns</string>
+</dict>
+</plist>

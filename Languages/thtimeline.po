@@ -1,0 +1,238 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tfmcopyright.caption
+msgctxt "tfmcopyright.caption"
+msgid "Copyright"
+msgstr ""
+
+#: tfmcopyright.lbcopyrightauthor2.caption
+msgid "Massimo Nardello, Modena (Italy) 2021"
+msgstr ""
+
+#: tfmcopyright.lbcopyrightauthor3.caption
+msgid "Author and copyright:"
+msgstr ""
+
+#: tfmcopyright.lbcopyrightdesc.caption
+msgid "A free software to manage chronologies"
+msgstr ""
+
+#: tfmcopyright.lbcopyrightname.caption
+msgid "Theological Timeline"
+msgstr ""
+
+#: tfmcopyright.lbcopyrightsite.caption
+msgid "Visit the website of thTimeline desktop"
+msgstr ""
+
+#: tfmcopyright.lbok.caption
+msgid "OK"
+msgstr ""
+
+#: tfmcopyright.lbversion.caption
+msgid "1.0.0.0"
+msgstr ""
+
+#: tfmmain.caption
+msgctxt "tfmmain.caption"
+msgid "thTimeline"
+msgstr ""
+
+#: tfmmain.cbuncertain1.caption
+msgctxt "tfmmain.cbuncertain1.caption"
+msgid "Uncertain"
+msgstr ""
+
+#: tfmmain.cbuncertain2.caption
+msgctxt "tfmmain.cbuncertain2.caption"
+msgid "Uncertain"
+msgstr ""
+
+#: tfmmain.lbfind.caption
+msgctxt "tfmmain.lbfind.caption"
+msgid "Find"
+msgstr ""
+
+#: tfmmain.lbnotes.caption
+msgctxt "tfmmain.lbnotes.caption"
+msgid "Notes"
+msgstr ""
+
+#: tfmmain.lbnumber.caption
+msgid "Items: 0"
+msgstr ""
+
+#: tfmmain.lbplaces.caption
+msgctxt "tfmmain.lbplaces.caption"
+msgid "Places"
+msgstr ""
+
+#: tfmmain.lbtags.caption
+msgctxt "tfmmain.lbtags.caption"
+msgid "Tags"
+msgstr ""
+
+#: tfmmain.lbtitle.caption
+msgctxt "tfmmain.lbtitle.caption"
+msgid "Name / Title"
+msgstr ""
+
+#: tfmmain.lbyear1.caption
+msgid "Year 1"
+msgstr ""
+
+#: tfmmain.lbyear2.caption
+msgid "Year 2"
+msgstr ""
+
+#: tfmmain.mifile.caption
+msgid "File"
+msgstr ""
+
+#: tfmmain.mifileclose.caption
+msgid "Close"
+msgstr ""
+
+#: tfmmain.mifileopen.caption
+msgid "Open..."
+msgstr ""
+
+#: tfmmain.mifilesave.caption
+msgid "Save"
+msgstr ""
+
+#: tfmmain.mifilesaveas.caption
+msgid "Save as..."
+msgstr ""
+
+#: tfmmain.mihelp.caption
+msgid "?"
+msgstr ""
+
+#: tfmmain.mihelpcopyright.caption
+msgctxt "tfmmain.mihelpcopyright.caption"
+msgid "Copyright"
+msgstr ""
+
+#: tfmmain.miitems.caption
+msgctxt "tfmmain.miitems.caption"
+msgid "Items"
+msgstr ""
+
+#: tfmmain.miitemschronology.caption
+msgid "Create chronology"
+msgstr ""
+
+#: tfmmain.miitemsdelete.caption
+msgid "Delete"
+msgstr ""
+
+#: tfmmain.miitemsfind.caption
+msgctxt "tfmmain.miitemsfind.caption"
+msgid "Find"
+msgstr ""
+
+#: tfmmain.miitemsnew.caption
+msgid "New"
+msgstr ""
+
+#: tfmmain.miitemssorttitle.caption
+msgid "Sort by name / title"
+msgstr ""
+
+#: tfmmain.miitemssortyear.caption
+msgid "Sort by year"
+msgstr ""
+
+#: tfmmain.mithtimeline.caption
+msgctxt "tfmmain.mithtimeline.caption"
+msgid "thTimeline"
+msgstr ""
+
+#: unit1.lab002a
+msgid "Name"
+msgstr ""
+
+#: unit1.lab002b
+msgctxt "unit1.lab002b"
+msgid "Name / Title"
+msgstr ""
+
+#: unit1.lab002c
+msgid "Title"
+msgstr ""
+
+#: unit1.lab003a
+msgid "Year of birth"
+msgstr ""
+
+#: unit1.lab003b
+msgid "Year"
+msgstr ""
+
+#: unit1.lab003c
+msgid "Start year"
+msgstr ""
+
+#: unit1.lab004
+msgctxt "unit1.lab004"
+msgid "Uncertain"
+msgstr ""
+
+#: unit1.lab005a
+msgid "Year of death"
+msgstr ""
+
+#: unit1.lab005b
+msgid "End year"
+msgstr ""
+
+#: unit1.lab006
+msgctxt "unit1.lab006"
+msgid "Places"
+msgstr ""
+
+#: unit1.lab007
+msgctxt "unit1.lab007"
+msgid "Notes"
+msgstr ""
+
+#: unit1.lab008
+msgctxt "unit1.lab008"
+msgid "Tags"
+msgstr ""
+
+#: unit1.lab009
+msgid "Person"
+msgstr ""
+
+#: unit1.lab010
+msgid "Document"
+msgstr ""
+
+#: unit1.lab011
+msgid "Event"
+msgstr ""
+
+#: unit1.lab012
+msgid "Chronology"
+msgstr ""
+
+#: unit1.lab013
+msgctxt "unit1.lab013"
+msgid "Items"
+msgstr ""
+
+#: unit1.msg001
+msgid "Error in saving the file."
+msgstr ""
+
+#: unit1.msg002
+msgid "Delete the current row?"
+msgstr ""
+
+#: unit1.msg003
+msgid "Error in opening the chronology."
+msgstr ""
+
