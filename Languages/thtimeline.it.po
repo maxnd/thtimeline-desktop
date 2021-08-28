@@ -116,6 +116,7 @@ msgid "Copyright"
 msgstr ""
 
 #: tfmmain.miitems.caption
+msgctxt "tfmmain.miitems.caption"
 msgid "Items"
 msgstr "Voci"
 

@@ -454,6 +454,7 @@ object fmMain: TfmMain
       Width = 658
       Anchors = [akTop, akLeft, akRight, akBottom]
       OnKeyDown = meNotesKeyDown
+      ScrollBars = ssAutoVertical
       TabOrder = 7
     end
     object lbTags: TLabel
@@ -473,6 +474,7 @@ object fmMain: TfmMain
       Top = 539
       Width = 658
       Anchors = [akLeft, akRight, akBottom]
+      ScrollBars = ssAutoVertical
       TabOrder = 8
     end
   end
