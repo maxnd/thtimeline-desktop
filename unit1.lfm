@@ -4,7 +4,7 @@ object fmMain: TfmMain
   Top = 245
   Width = 1135
   Caption = 'thTimeline'
-  ClientHeight = 717
+  ClientHeight = 737
   ClientWidth = 1135
   Color = clWindow
   Icon.Data = {
@@ -279,11 +279,11 @@ object fmMain: TfmMain
   OnActivate = FormActivate
   OnClose = FormClose
   OnCreate = FormCreate
-  LCLVersion = '2.0.6.0'
+  LCLVersion = '2.0.12.0'
   object pnBottom: TPanel
     Left = 0
     Height = 30
-    Top = 687
+    Top = 707
     Width = 1135
     Align = alBottom
     BevelOuter = bvNone
@@ -304,19 +304,19 @@ object fmMain: TfmMain
   end
   object spData: TSplitter
     Left = 300
-    Height = 687
+    Height = 707
     Top = 0
     Width = 5
   end
   object pnDetail: TPanel
     Left = 305
-    Height = 667
+    Height = 687
     Top = 20
     Width = 830
     Align = alClient
     BorderSpacing.Top = 20
     BevelOuter = bvNone
-    ClientHeight = 667
+    ClientHeight = 687
     ClientWidth = 830
     Color = clWindow
     ParentColor = False
@@ -334,8 +334,8 @@ object fmMain: TfmMain
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 3
-      ClientHeight = 60
-      ClientWidth = 396
+      ClientHeight = 61
+      ClientWidth = 390
       Columns = 3
       Items.Strings = (
         'Person'
@@ -347,7 +347,7 @@ object fmMain: TfmMain
     end
     object edTitle: TEdit
       Left = 144
-      Height = 23
+      Height = 22
       Top = 120
       Width = 656
       Anchors = [akTop, akLeft, akRight]
@@ -377,7 +377,7 @@ object fmMain: TfmMain
     end
     object edYear1: TEdit
       Left = 142
-      Height = 23
+      Height = 22
       Top = 168
       Width = 80
       NumbersOnly = True
@@ -395,7 +395,7 @@ object fmMain: TfmMain
     end
     object edYear2: TEdit
       Left = 142
-      Height = 23
+      Height = 22
       Top = 218
       Width = 80
       NumbersOnly = True
@@ -403,18 +403,18 @@ object fmMain: TfmMain
     end
     object cbUncertain1: TCheckBox
       Left = 280
-      Height = 19
+      Height = 18
       Top = 169
-      Width = 71
+      Width = 82
       Alignment = taLeftJustify
       Caption = 'Uncertain'
       TabOrder = 3
     end
     object cbUncertain2: TCheckBox
       Left = 280
-      Height = 19
+      Height = 18
       Top = 219
-      Width = 71
+      Width = 82
       Alignment = taLeftJustify
       Caption = 'Uncertain'
       TabOrder = 5
@@ -431,7 +431,7 @@ object fmMain: TfmMain
     end
     object edPlaces: TEdit
       Left = 144
-      Height = 23
+      Height = 22
       Top = 268
       Width = 656
       Anchors = [akTop, akLeft, akRight]
@@ -449,10 +449,11 @@ object fmMain: TfmMain
     end
     object meNotes: TMemo
       Left = 142
-      Height = 189
+      Height = 209
       Top = 328
       Width = 658
       Anchors = [akTop, akLeft, akRight, akBottom]
+      Lines.Strings = (      )
       OnKeyDown = meNotesKeyDown
       ScrollBars = ssAutoVertical
       TabOrder = 7
@@ -460,7 +461,7 @@ object fmMain: TfmMain
     object lbTags: TLabel
       Left = 16
       Height = 16
-      Top = 539
+      Top = 559
       Width = 113
       Alignment = taRightJustify
       Anchors = [akLeft, akBottom]
@@ -471,20 +472,21 @@ object fmMain: TfmMain
     object meTags: TMemo
       Left = 142
       Height = 128
-      Top = 539
+      Top = 559
       Width = 658
       Anchors = [akLeft, akRight, akBottom]
+      Lines.Strings = (      )
       ScrollBars = ssAutoVertical
       TabOrder = 8
     end
   end
   object pnLeft: TPanel
     Left = 0
-    Height = 687
+    Height = 707
     Top = 0
     Width = 300
     Align = alLeft
-    ClientHeight = 687
+    ClientHeight = 707
     ClientWidth = 300
     TabOrder = 3
     object pnFind: TPanel
@@ -501,7 +503,7 @@ object fmMain: TfmMain
       TabOrder = 0
       object edFind: TEdit
         Left = 72
-        Height = 23
+        Height = 22
         Top = 16
         Width = 200
         Anchors = [akTop, akLeft, akRight]
@@ -522,7 +524,7 @@ object fmMain: TfmMain
     end
     object sgData: TStringGrid
       Left = 21
-      Height = 635
+      Height = 655
       Top = 51
       Width = 278
       Align = alClient
@@ -543,8 +545,8 @@ object fmMain: TfmMain
     end
   end
   object mmMenu: TMainMenu
-    left = 888
-    top = 80
+    Left = 888
+    Top = 80
     object mithTimeline: TMenuItem
       Caption = 'thTimeline'
       Visible = False
@@ -623,19 +625,19 @@ object fmMain: TfmMain
   object odOpenDialog: TOpenDialog
     DefaultExt = '.thl.txt'
     Filter = 'Text files|*.thl.txt'
-    left = 741
-    top = 163
+    Left = 741
+    Top = 163
   end
   object sdSaveDialog: TSaveDialog
     DefaultExt = '.thl.txt'
     Filter = 'Text files|*.thl.txt'
-    left = 869
-    top = 164
+    Left = 869
+    Top = 164
   end
   object sdExport: TSaveDialog
     DefaultExt = '.html'
     Filter = 'File HTML|*.html'
-    left = 951
-    top = 236
+    Left = 951
+    Top = 236
   end
 end

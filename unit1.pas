@@ -265,6 +265,10 @@ begin
   if ((stFileName <> '') and (FileExistsUTF8(stFileName))) then
   begin
     OpenFileData;
+  end
+  else
+  begin
+    stFileName := '';
   end;
 end;
 

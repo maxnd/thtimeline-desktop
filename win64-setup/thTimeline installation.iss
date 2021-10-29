@@ -1,6 +1,6 @@
 [Setup]
 AppName=Theological Timeline
-AppVersion=1.0.0
+AppVersion=1.0.1
 AppPublisher=Massimo Nardello
 AppPublisherURL=https://github.com/maxnd/thtimeline-desktop
 DefaultDirName={pf}\Theological Timeline
